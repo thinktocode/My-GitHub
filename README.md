@@ -6,6 +6,14 @@
   <a href="https://android-arsenal.com/api?level=21"><img alt="API" src="https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat"/></a>
   <a href="https://github.com/thinktocode/GitFit/actions"><img alt="Build Status" src="https://github.com/thinktocode/GitFit/workflows/Android%20CI/badge.svg"/></a> 
 </p>
+    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[![API](https://img.shields.io/badge/API-21%2B-yellow?style=for-the-badge)](https://android-arsenal.com/api?level=21)
+[![WORKFLOWS](https://img.shields.io/badge/Android%20CI-passing-green?style=for-the-badge)](https://github.com/thinktocode/GitFit/actions)
+[![Stargazers](https://img.shields.io/github/stars/thinktocode/GitFit?style=for-the-badge)](https://github.com//thinktocode/GitFit/stargazers)
+[![Issues](https://img.shields.io/github/issues/thinktocode/GitFit?style=for-the-badge)](https://github.com/thinktocode/GitFit/issues)
+[![Contributors](https://img.shields.io/github/contributors/thinktocode/GitFit?style=for-the-badge)](https://img.shields.io/github/contributors/thinktocode/GitFit)
+[![Forks](https://img.shields.io/github/forks/thinktocode/GitFit?style=for-the-badge)](https://github.com//thinktocode/GitFit/network/members)
 
 ## GitFit is a github battle app that compare one github profile with another.
 
