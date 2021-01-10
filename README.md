@@ -1,4 +1,4 @@
-<h1 alogn = "center" >GitFit </h1>
+<h1 align = "center" >GitFit </h1>
 
 </p>
 
