@@ -44,6 +44,11 @@ Just enter the github id of the user and compare the profiles.
 <img src="https://github.com/thinktocode/GitFit/blob/master/ScreenShots/light_user1.png" alt="drawing" width="200"/>
 <img src="https://github.com/thinktocode/GitFit/blob/master/ScreenShots/light_battle.png" alt="drawing" width="200"/>
 
+
+# Open-source Programs
+<p style="width:80%;">Winter of Code is an open-source program envisioned by DevScript that helps understand the paradigm of Open Source contribution. It aims to bring students into the world of open source development and see the power of unified problem solving in real time.</p>
+<img src="https://devscript.tech/woc/img/WOC-logo.png" width="40%">
+
 ## Happy?? Star ⭐ this Repo. 🤩
 
 
