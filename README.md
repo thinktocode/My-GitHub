@@ -3,7 +3,7 @@
 </p>
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![API](https://img.shields.io/badge/API-21%2B-yellow?style=for-the-badge)](https://android-arsenal.com/api?level=21)
 [![WORKFLOWS](https://img.shields.io/badge/Android%20CI-passing-green?style=for-the-badge)](https://github.com/thinktocode/GitFit/actions)
 [![Stargazers](https://img.shields.io/github/stars/thinktocode/GitFit?style=for-the-badge)](https://github.com//thinktocode/GitFit/stargazers)
