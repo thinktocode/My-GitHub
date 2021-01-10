@@ -1,4 +1,4 @@
-# GitFit
+<h1 alogn = "center" >GitFit </h1>
 
 </p>
 
