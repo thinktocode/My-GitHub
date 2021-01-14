@@ -52,6 +52,61 @@ Just enter the github id of the user and compare the profiles.
 ## How to Contribute ? 
 If you wish to contribute , checck [CONTRIBUTING.md](https://github.com/thinktocode/GitFit/blob/master/CONTRIBUTING.md) 
 
+## Contributors 🌟
+
+Thanks goes to these wonderful people ✨✨:
+<table>
+   <!--   ROW 1 -->
+   <tr>
+      <td align="center">
+   <a href="https://github.com/thinktocode">
+   <img src="https://avatars3.githubusercontent.com/u/73512577?v=4" width="100px" alt=""/><br />
+   <sub><b>thinktocode</b></sub>
+   </a><br />
+   <a href="https://github.com/Jayshah6699/datascience-mashup/commits?author=thinktocode">        
+   👑 Author
+   </a>
+</td>
+<td align="center">
+   <a href="https://github.com/akrish4">
+   <img src="https://avatars0.githubusercontent.com/u/61831021?v=4" width="100px" alt=""/><br />
+   <sub><b>akrish4</b></sub>
+   </a><br />
+   <a href="https://github.com/Jayshah6699/datascience-mashup/commits?author=akrish4">
+   💻
+   </a>
+</td>
+<td align="center">
+   <a href="https://github.com/tharunc">
+   <img src="https://avatars3.githubusercontent.com/u/68283386?v=4" width="100px" alt=""/><br />
+   <sub><b>tharunc</b></sub>
+   </a><br />
+   <a href="https://github.com/Jayshah6699/datascience-mashup/commits?author=tharunc">
+   💻
+   </a>
+</td>
+<td align="center">
+   <a href="https://github.com/Sloth-Panda">
+   <img src="https://avatars2.githubusercontent.com/u/70213384?v=4" width="100px" alt=""/><br />
+   <sub><b>Sloth-Panda</b></sub>
+   </a><br />
+   <a href="https://github.com/Jayshah6699/datascience-mashup/commits?author=Sloth-Panda">
+   💻
+   </a>
+</td>
+<td align="center">
+   <a href="https://github.com/namanbirsingh">
+   <img src="https://avatars3.githubusercontent.com/u/77064124?v=4" width="100px" alt=""/><br />
+   <sub><b>namanbirsingh</b></sub>
+   </a><br />
+   <a href="https://github.com/Jayshah6699/datascience-mashup/commits?author=namanbirsingh">
+   💻
+   </a>
+</td>
+   </tr>
+</table>
+
+
 ## Happy?? Star ⭐ this Repo. 🤩
 
 
@@ -59,7 +114,8 @@ If you wish to contribute , checck [CONTRIBUTING.md](https://github.com/thinktoc
 ![Figma](https://img.shields.io/badge/figma%20-%23F24E1E.svg?&style=for-the-badge&logo=figma&logoColor=white)
 ![Git](https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white)
 ![Github](https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white)
-##### Made with ❤️ By Namanbir Singh
+
+##### Made with ❤️ By [Namanbir Singh](https://github.com/thinktocode)
 ![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
 ![ForTheBadge ANDROID](https://forthebadge.com/images/badges/built-for-android.svg)
 
