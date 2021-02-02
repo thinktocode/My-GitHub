@@ -5,6 +5,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
@@ -17,7 +18,7 @@ class BattleActivity : AppCompatActivity() {
 
     //todo help option in appbar to show dialog to tell how result is calculated.
 
-    companion object{
+    companion object {
         private const val INTENT_BATTLE_DATA = "intent_battle_data"
         fun start(context: Context, resultModel: ResultModel) {
             val intent = Intent(context, BattleActivity::class.java)
@@ -26,7 +27,7 @@ class BattleActivity : AppCompatActivity() {
         }
     }
 
-    private lateinit var viewBinding : ActivityBattleBinding
+    private lateinit var viewBinding: ActivityBattleBinding
 
     private var resultModel = ResultModel()
 
@@ -34,7 +35,7 @@ class BattleActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         viewBinding = DataBindingUtil.setContentView(this, R.layout.activity_battle)
         setSupportActionBar(viewBinding.toolBattle)
-        overridePendingTransition( android.R.anim.fade_in, android.R.anim.fade_out )
+        overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
         handleIntent()
         updateUI()
     }
@@ -45,7 +46,7 @@ class BattleActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        return when(item.itemId){
+        return when (item.itemId) {
             R.id.help -> {
                 showDialog()
                 true
@@ -55,7 +56,7 @@ class BattleActivity : AppCompatActivity() {
     }
 
     private fun showDialog() {
-        val alertDialog  = AlertDialog.Builder(this)
+        val alertDialog = AlertDialog.Builder(this)
         alertDialog.setCancelable(true)
         alertDialog.setTitle("Score Calculator")
         alertDialog.setMessage("Star gives you 3 points\nFork gives you 5 points\nFollow gives you 1 point\nPublic repo give 1 point")
@@ -66,75 +67,56 @@ class BattleActivity : AppCompatActivity() {
         resultModel = intent.getParcelableExtra<ResultModel>(INTENT_BATTLE_DATA) as ResultModel
     }
 
+    private fun updateWinner(user: ResultModel.User?, score: String){
+
+        Glide.with(this)
+            .load(user?.avatarUrl)
+            .into(viewBinding.imUserImage1)
+
+        viewBinding.tvUserName1.text = user?.name
+        viewBinding.tvUserScore1.text = score
+        viewBinding.tvPublicRepo1.text = "Public Repo : ${user?.publicRepos}"
+        viewBinding.tvFollowersUser1.text = user?.followers.toString()
+        viewBinding.tvFollowingUser1.text = user?.following.toString()
+    }
+
+    private fun updateLoser(user: ResultModel.User?, score: String) {
+
+        Glide.with(this)
+            .load(user?.avatarUrl)
+            .into(viewBinding.imUserImage2)
+
+        viewBinding.tvUserName2.text = user?.name
+        viewBinding.tvUserScore2.text = score
+        viewBinding.tvPublicRepo2.text = "Public Repo : ${user?.publicRepos}"
+        viewBinding.tvFollowersUser2.text = user?.followers.toString()
+        viewBinding.tvFollowingUser2.text = user?.following.toString()
+    }
+
+    /**winner parameter = {1-> User 1 is winner; 2 -> User 2 is winner; 0 -> Draw}*/
+    private fun findWinner():Int{
+        return when {
+            resultModel.score1!! == resultModel.score2!! -> 0
+            resultModel.score1!! > resultModel.score2!! -> 1
+            else -> 2
+        }
+    }
+
     private fun updateUI() {
-        when(resultModel.score1!! >= resultModel.score2!!){
-            true -> {
+        when (val winner = findWinner()) {
+            0, 1 -> {
 
-                /**Winner */
-                Glide.with(this)
-                        .load(resultModel.user1?.avatarUrl)
-                        .into(viewBinding.imUserImage1)
-
-                viewBinding.tvUserName1.text = resultModel.user1?.name
-
-                viewBinding.tvUserScore1.text = resultModel.score1.toString()
-
-                viewBinding.tvPublicRepo1.text = "Public Repo : ${resultModel.user1?.publicRepos}"
-
-                viewBinding.tvFollowersUser1.text = resultModel.user1?.followers.toString()
-
-                viewBinding.tvFollowingUser1.text = resultModel.user1?.following.toString()
-
-                /**Loser */
-
-                Glide.with(this)
-                        .load(resultModel.user2?.avatarUrl)
-                        .into(viewBinding.imUserImage2)
-
-                viewBinding.tvUserName2.text = resultModel.user2?.name
-
-                viewBinding.tvUserScore2.text = resultModel.score2.toString()
-
-                viewBinding.tvPublicRepo2.text = "Public Repo : ${resultModel.user2?.publicRepos}"
-
-                viewBinding.tvFollowersUser2.text = resultModel.user2?.followers.toString()
-
-                viewBinding.tvFollowingUser2.text = resultModel.user2?.following.toString()
-
+                if (winner == 0) { //Draw case
+                    viewBinding.imageView3.setImageResource(R.drawable.party)
+                    viewBinding.resultLayout.visibility = View.GONE
+                    viewBinding.drawResult.visibility = View.VISIBLE
+                }
+                updateWinner(resultModel.user1, resultModel.score1.toString())
+                updateLoser(resultModel.user2, resultModel.score2.toString())
             }
-            false -> {
-
-                /**Winner */
-                Glide.with(this)
-                        .load(resultModel.user1?.avatarUrl)
-                        .into(viewBinding.imUserImage2)
-
-                viewBinding.tvUserName2.text = resultModel.user1?.name
-
-                viewBinding.tvUserScore2.text = resultModel.score1.toString()
-
-                viewBinding.tvPublicRepo2.text = "Public Repo : ${resultModel.user1?.publicRepos}"
-
-                viewBinding.tvFollowersUser2.text = resultModel.user1?.followers.toString()
-
-                viewBinding.tvFollowingUser2.text = resultModel.user1?.following.toString()
-
-                /**Loser */
-
-                Glide.with(this)
-                        .load(resultModel.user2?.avatarUrl)
-                        .into(viewBinding.imUserImage1)
-
-                viewBinding.tvUserName1.text = resultModel.user2?.name
-
-                viewBinding.tvUserScore1.text = resultModel.score2.toString()
-
-                viewBinding.tvPublicRepo1.text = "Public Repo : ${resultModel.user2?.publicRepos}"
-
-                viewBinding.tvFollowersUser1.text = resultModel.user2?.followers.toString()
-
-                viewBinding.tvFollowingUser1.text = resultModel.user2?.following.toString()
-
+            2 -> {
+                updateWinner(resultModel.user2, resultModel.score2.toString())
+                updateLoser(resultModel.user1, resultModel.score1.toString())
             }
         }
     }
