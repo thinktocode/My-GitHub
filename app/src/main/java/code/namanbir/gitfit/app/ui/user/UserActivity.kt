@@ -135,11 +135,16 @@ class UserActivity : AppCompatActivity() {
         }
 
         viewBinding.btStartBattle.setOnClickListener {
-            overridePendingTransition( android.R.anim.fade_in, android.R.anim.fade_out )
-            BattleActivity.start(
+            if(viewModel.user1.value == viewModel.user2.value){
+                showSnackBar("Enter different users")
+            }
+            else {
+                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
+                BattleActivity.start(
                     this,
                     resultModel
-            )
+                )
+            }
         }
 
         viewBinding.imCancel1.setOnClickListener{
