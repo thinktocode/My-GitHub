@@ -72,8 +72,21 @@ Thanks goes to these **Wonderful People** 👨🏻‍💻:
 💻</a></td>
 <td align="center"><a href="https://github.com/akrish4"><img src="https://avatars.githubusercontent.com/u/61831021?s=400&u=31f7ece09fb07c20b3b97673f448e762dc0946b0&v=4" width="100px;" alt=""/><br /><sub><b>akrish4</b></sub></a><br /><a href="https://github.com/akrish4/GitFit/commits?author=" title="Code">
 💻</a></td>
-<td align="center"><a href="https://github.com/Ayush7614"><img src="https://avatars.githubusercontent.com/u/67006255?s=400&u=c0e16c3bba31328a028cfcca4b1fa7599509f905&v=4" width="100px;" alt=""/><br /><sub><b>Ayush7614</b></sub></a><br /><a href="https://github.com/Ayush7614/CompetitiveProgrammingQuestionBank/commits?author=" title="Code">💻</a></td>
-  </tr>
+<td align="center"><a href="https://github.com/tharunc"><img src="https://avatars.githubusercontent.com/u/68283386?s=400&v=4" width="100px;" alt=""/><br /><sub><b>tharunc</b></sub></a><br /><a href="https://github.com/tharunc/GitFit/commits?author=" title="Code">
+💻</a></td>
+<td align="center"><a href="https://github.com/Sloth-Panda"><img src="https://avatars.githubusercontent.com/u/70213384?s=400&u=e9943a17413e20376627fd81f618da46d8fdef8b&v=4" width="100px;" alt=""/><br /><sub><b>Sloth-Panda</b></sub></a><br /><a href="https://github.com/Sloth-Panda/GitFit/commits?author=" title="Code">
+💻</a></td>
+<td align="center"><a href="https://github.com/namanbirsingh"><img src="https://avatars.githubusercontent.com/u/77064124?s=400&u=79621bfd6df49f0c71de8fcb9bd9b2ba07157b63&v=4" width="100px;" alt=""/><br /><sub><b>namanbirsingh</b></sub></a><br /><a href="https://github.com/namanbirsingh/GitFit/commits?author=" title="Code">
+💻</a></td>
+<td align="center"><a href="https://github.com/Swastik1710"><img src="https://avatars.githubusercontent.com/u/71871571?s=400&u=af429b0b3f28876be989e8ab0b7c66baac5797b4&v=4" width="100px;" alt=""/><br /><sub><b>Swastik1710</b></sub></a><br /><a href="https://github.com/Swastik1710/GitFit/commits?author=" title="Code">
+💻</a></td>
+<td align="center"><a href="https://github.com/codeDamon"><img src="https://avatars.githubusercontent.com/u/59572531?s=400&u=b62079fd37cde88e546d63156193a38d79194889&v=4" width="100px;" alt=""/><br /><sub><b>codeDamon</b></sub></a><br /><a href="https://github.com/codeDamon/GitFit/commits?author=" title="Code">
+💻</a></td>
+<td align="center"><a href="https://github.com/samir-0711"><img src="https://avatars.githubusercontent.com/u/68433936?s=400&u=9c75479b64400d66850488867876034842275717&v=4" width="100px;" alt=""/><br /><sub><b>samir-0711</b></sub></a><br /><a href="https://github.com/samir-0711/GitFit/commits?author=" title="Code">
+💻</a></td>
+<td align="center"><a href="https://github.com/Ayush7614"><img src="https://avatars.githubusercontent.com/u/67006255?s=400&u=c0e16c3bba31328a028cfcca4b1fa7599509f905&v=4" width="100px;" alt=""/><br /><sub><b>Ayush7614</b></sub></a><br /><a href="https://github.com/Ayush7614/GitFit/commits?author=" title="Code">
+💻</a></td>
+</tr>
 </table>
 
 🚀 **Contributions** of any kind is welcome!
