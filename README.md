@@ -91,6 +91,11 @@ Thanks goes to these **Wonderful People** 👨🏻‍💻:
 
 🚀 **Contributions** of any kind is welcome!
 
+## Stargazers Over Time
+
+[![Stargazers over time](https://starchart.cc/thinktocode/GitFit.svg)](https://starchart.cc/thinktocode/GitFit)
+
+
 
 ## Happy?? Star ⭐ this Repo. 🤩
 
