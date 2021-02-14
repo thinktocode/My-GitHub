@@ -68,7 +68,8 @@ Thanks goes to these **Wonderful People** 👨🏻‍💻:
 <!-- markdownlint-disable -->
 <table>
  <tr>
-<td align="center"><a href="https://github.com/smv1999"><img src="https://avatars.githubusercontent.com/u/42896577?s=400&u=9530610016fa2171d559af8bcdb3e9178bb7d308&v=4" width="100px;" alt=""/><br /><sub><b>smv1999</b></sub></a><br /><a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/commits?author=smv1999" title="Code">💻</a></td>
+<td align="center"><a href="https://github.com/thinktocode"><img src="https://avatars.githubusercontent.com/u/73512577?s=400&u=81ec36ac45c0fa0961938845f25338c554dfe651&v=4" width="100px;" alt=""/><br /><sub><b>thinktocode</b></sub></a><br /><a href="https://github.com/thinktocode/GitFit/commits?author=thinktocode" title="Code">
+💻</a></td>
 <td align="center"><a href="https://github.com/TawfikYasser"><img src="https://avatars.githubusercontent.com/u/61831021?s=400&u=31f7ece09fb07c20b3b97673f448e762dc0946b0&v=4" width="100px;" alt=""/><br /><sub><b>TawfikYasser</b></sub></a><br /><a href="https://github.com/TawfikYasser/CompetitiveProgrammingQuestionBank/commits?author=" title="Code">💻</a></td>
 <td align="center"><a href="https://github.com/Ayush7614"><img src="https://avatars.githubusercontent.com/u/67006255?s=400&u=c0e16c3bba31328a028cfcca4b1fa7599509f905&v=4" width="100px;" alt=""/><br /><sub><b>Ayush7614</b></sub></a><br /><a href="https://github.com/Ayush7614/CompetitiveProgrammingQuestionBank/commits?author=" title="Code">💻</a></td>
   </tr>
