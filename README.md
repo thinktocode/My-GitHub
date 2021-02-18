@@ -15,7 +15,7 @@
     
 
 
-## GitFit is a github battle app that compare one github profile with another.
+## GitFit is a github battle app that compares one github profile with another.
 
 ## Top Features of the App
 Just enter the github id of the user and compare the profiles.
@@ -46,7 +46,7 @@ Just enter the github id of the user and compare the profiles.
 
 
 # Open-source Programs
-<p style="width:80%;">Winter of Code is an open-source program envisioned by DevScript that helps understand the paradigm of Open Source contribution. It aims to bring students into the world of open source development and see the power of unified problem solving in real time.</p>
+<p style="width:80%;">Winter of Code is an open-source program envisioned by DevScript that helps to understand the paradigm of Open Source contribution. It aims to bring students into the world of open source development and see the power of unified problem solving in real time.</p>
 <img src="https://devscript.tech/woc/img/WOC-logo.png" width="40%">
 
 ## How to Contribute ? 
